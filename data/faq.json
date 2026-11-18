@@ -1,0 +1,1664 @@
+{
+  "regions": [
+    {
+      "id": "jp",
+      "label": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本"
+      }
+    },
+    {
+      "id": "na",
+      "label": {
+        "ja": "北米",
+        "en": "North America",
+        "zh": "北美"
+      }
+    },
+    {
+      "id": "eu",
+      "label": {
+        "ja": "欧州",
+        "en": "Europe",
+        "zh": "欧洲"
+      }
+    },
+    {
+      "id": "cn",
+      "label": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国"
+      }
+    },
+    {
+      "id": "sea",
+      "label": {
+        "ja": "東南アジア",
+        "en": "Southeast Asia",
+        "zh": "东南亚"
+      }
+    }
+  ],
+  "productCategories": [
+    {
+      "id": "living",
+      "label": {
+        "ja": "生活家電",
+        "en": "Home Appliances",
+        "zh": "生活家电"
+      },
+      "children": [
+        {
+          "id": "washer",
+          "label": {
+            "ja": "洗濯機・衣類乾燥機",
+            "en": "Washers & Dryers",
+            "zh": "洗衣机・干衣机"
+          }
+        },
+        {
+          "id": "vacuum",
+          "label": {
+            "ja": "掃除機・クリーナー",
+            "en": "Vacuum Cleaners",
+            "zh": "吸尘器・清洁器"
+          }
+        },
+        {
+          "id": "iron",
+          "label": {
+            "ja": "アイロン・衣類スチーマー",
+            "en": "Irons & Garment Steamers",
+            "zh": "熨斗・挂烫机"
+          }
+        },
+        {
+          "id": "lighting",
+          "label": {
+            "ja": "照明",
+            "en": "Lighting",
+            "zh": "照明"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hvac",
+      "label": {
+        "ja": "空調家電・季節家電",
+        "en": "Air Conditioning & Seasonal",
+        "zh": "空调家电・季节家电"
+      },
+      "children": [
+        {
+          "id": "aircon",
+          "label": {
+            "ja": "エアコン",
+            "en": "Air Conditioners",
+            "zh": "空调"
+          }
+        },
+        {
+          "id": "fan",
+          "label": {
+            "ja": "扇風機・天井扇",
+            "en": "Fans & Ceiling Fans",
+            "zh": "电风扇・吊扇"
+          }
+        },
+        {
+          "id": "purifier",
+          "label": {
+            "ja": "空気清浄機",
+            "en": "Air Purifiers",
+            "zh": "空气净化器"
+          }
+        },
+        {
+          "id": "humidifier",
+          "label": {
+            "ja": "加湿機",
+            "en": "Humidifiers",
+            "zh": "加湿器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "label": {
+        "ja": "キッチン家電・調理家電",
+        "en": "Kitchen & Cooking",
+        "zh": "厨房家电・烹饪家电"
+      },
+      "children": [
+        {
+          "id": "fridge",
+          "label": {
+            "ja": "冷蔵庫",
+            "en": "Refrigerators",
+            "zh": "冰箱"
+          }
+        },
+        {
+          "id": "oven",
+          "label": {
+            "ja": "スチームオーブンレンジ・電子レンジ",
+            "en": "Steam Ovens & Microwaves",
+            "zh": "蒸汽烤箱・微波炉"
+          }
+        },
+        {
+          "id": "ih",
+          "label": {
+            "ja": "IH調理器",
+            "en": "IH Cookers",
+            "zh": "IH电磁炉"
+          }
+        },
+        {
+          "id": "rice",
+          "label": {
+            "ja": "炊飯器",
+            "en": "Rice Cookers",
+            "zh": "电饭煲"
+          }
+        },
+        {
+          "id": "dishwasher",
+          "label": {
+            "ja": "食器洗い乾燥機",
+            "en": "Dishwashers",
+            "zh": "洗碗机"
+          }
+        }
+      ]
+    },
+    {
+      "id": "av",
+      "label": {
+        "ja": "AV機器・カメラ",
+        "en": "AV Equipment & Cameras",
+        "zh": "AV设备・相机"
+      },
+      "children": [
+        {
+          "id": "tv",
+          "label": {
+            "ja": "テレビ・レコーダー",
+            "en": "TVs & Recorders",
+            "zh": "电视・录像机"
+          }
+        },
+        {
+          "id": "camera",
+          "label": {
+            "ja": "カメラ",
+            "en": "Cameras",
+            "zh": "相机"
+          }
+        },
+        {
+          "id": "audio",
+          "label": {
+            "ja": "オーディオ",
+            "en": "Audio",
+            "zh": "音响"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "label": {
+        "ja": "美容家電・健康家電",
+        "en": "Beauty & Health",
+        "zh": "美容家电・健康家电"
+      },
+      "children": [
+        {
+          "id": "haircare",
+          "label": {
+            "ja": "ヘアケア",
+            "en": "Hair Care",
+            "zh": "护发"
+          }
+        },
+        {
+          "id": "oral",
+          "label": {
+            "ja": "オーラルケア",
+            "en": "Oral Care",
+            "zh": "口腔护理"
+          }
+        },
+        {
+          "id": "shaver",
+          "label": {
+            "ja": "メンズシェーバー",
+            "en": "Men's Shavers",
+            "zh": "男士剃须刀"
+          }
+        },
+        {
+          "id": "massage",
+          "label": {
+            "ja": "マッサージ機器",
+            "en": "Massagers",
+            "zh": "按摩器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "label": {
+        "ja": "電池・モバイルバッテリー・充電器",
+        "en": "Batteries & Chargers",
+        "zh": "电池・移动电源・充电器"
+      },
+      "children": [
+        {
+          "id": "dry",
+          "label": {
+            "ja": "乾電池",
+            "en": "Dry Cell Batteries",
+            "zh": "干电池"
+          }
+        },
+        {
+          "id": "rechargeable",
+          "label": {
+            "ja": "充電池・充電器",
+            "en": "Rechargeable Batteries & Chargers",
+            "zh": "充电电池・充电器"
+          }
+        },
+        {
+          "id": "mobile",
+          "label": {
+            "ja": "モバイルバッテリー",
+            "en": "Power Banks",
+            "zh": "移动电源"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phone",
+      "label": {
+        "ja": "電話・FAX・インターホン",
+        "en": "Phones, Fax & Intercoms",
+        "zh": "电话・传真・对讲机"
+      },
+      "children": [
+        {
+          "id": "telephone",
+          "label": {
+            "ja": "電話機",
+            "en": "Telephones",
+            "zh": "电话机"
+          }
+        },
+        {
+          "id": "fax",
+          "label": {
+            "ja": "ファクス",
+            "en": "Fax",
+            "zh": "传真机"
+          }
+        },
+        {
+          "id": "intercom",
+          "label": {
+            "ja": "インターホン・テレビドアホン",
+            "en": "Intercoms & Video Door Phones",
+            "zh": "对讲机・可视门铃"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pc",
+      "label": {
+        "ja": "パソコン",
+        "en": "PCs",
+        "zh": "电脑"
+      },
+      "children": [
+        {
+          "id": "pcmain",
+          "label": {
+            "ja": "パソコン本体",
+            "en": "PC Units",
+            "zh": "电脑主机"
+          }
+        },
+        {
+          "id": "pcopt",
+          "label": {
+            "ja": "パソコン専用オプション品",
+            "en": "PC Options",
+            "zh": "电脑专用选件"
+          }
+        }
+      ]
+    },
+    {
+      "id": "car",
+      "label": {
+        "ja": "カーナビ／カーAV",
+        "en": "Car Navigation / Car AV",
+        "zh": "车载导航／车载AV"
+      },
+      "children": []
+    },
+    {
+      "id": "housing",
+      "label": {
+        "ja": "住宅設備",
+        "en": "Housing Equipment",
+        "zh": "住宅设备"
+      },
+      "children": []
+    },
+    {
+      "id": "bicycle",
+      "label": {
+        "ja": "自転車",
+        "en": "Bicycles",
+        "zh": "自行车"
+      },
+      "children": [
+        {
+          "id": "ebike",
+          "label": {
+            "ja": "電動アシスト自転車",
+            "en": "E-Assist Bicycles",
+            "zh": "电动助力自行车"
+          }
+        },
+        {
+          "id": "bikelight",
+          "label": {
+            "ja": "自転車用ライト",
+            "en": "Bicycle Lights",
+            "zh": "自行车灯"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hearing",
+      "label": {
+        "ja": "補聴器",
+        "en": "Hearing Aids",
+        "zh": "助听器"
+      },
+      "children": []
+    },
+    {
+      "id": "other",
+      "label": {
+        "ja": "その他商品",
+        "en": "Other Products",
+        "zh": "其他产品"
+      },
+      "children": []
+    },
+    {
+      "id": "common",
+      "label": {
+        "ja": "全製品共通",
+        "en": "All Products",
+        "zh": "全产品通用"
+      },
+      "children": []
+    }
+  ],
+  "topics": [
+    {
+      "id": "install",
+      "label": {
+        "ja": "設置・導入",
+        "en": "Installation",
+        "zh": "安装与导入"
+      }
+    },
+    {
+      "id": "operation",
+      "label": {
+        "ja": "操作・使い方",
+        "en": "Operation",
+        "zh": "操作与使用"
+      }
+    },
+    {
+      "id": "maintenance",
+      "label": {
+        "ja": "お手入れ・保守",
+        "en": "Care & Maintenance",
+        "zh": "保养与维护"
+      }
+    },
+    {
+      "id": "error",
+      "label": {
+        "ja": "エラー・故障",
+        "en": "Errors & Troubleshooting",
+        "zh": "故障与报警"
+      }
+    },
+    {
+      "id": "warranty",
+      "label": {
+        "ja": "保証・修理",
+        "en": "Warranty & Repair",
+        "zh": "保修与维修"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "faq-001",
+      "productCategory": "living",
+      "productSubcategory": "washer",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NW-80"
+      ],
+      "updated": "2024-07-01",
+      "i18n": {
+        "ja": {
+          "q": "エラーコード U11 が表示されて止まります。",
+          "a": "U11 は排水異常を示します。\n1. 排水ホースが折れていないか確認してください。\n2. 排水フィルターのごみを取り除いてください。\n3. 改善しない場合は、型番と製造番号を添えてサポート窓口へご連絡ください。"
+        },
+        "en": {
+          "q": "The washer stops with error code U11.",
+          "a": "U11 indicates a drain fault.\n1. Check that the drain hose is not kinked.\n2. Clean the drain filter.\n3. If it persists, contact the support desk with the model and serial number."
+        },
+        "zh": {
+          "q": "洗衣机显示报警代码 U11 后停止运行。",
+          "a": "U11表示排水异常。\n1. 请确认排水管没有折弯。\n2. 清理排水过滤网。\n3. 如仍无法解决,请提供型号和序列号联系支持窗口。"
+        }
+      }
+    },
+    {
+      "id": "faq-002",
+      "productCategory": "living",
+      "productSubcategory": "washer",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NW-80"
+      ],
+      "updated": "2024-07-01",
+      "i18n": {
+        "ja": {
+          "q": "乾燥機能を使っても衣類が乾きません。",
+          "a": "乾燥フィルターのごみ詰まりや、衣類の入れすぎが主な原因です。フィルターを掃除し、洗濯物は容量の6割程度にしてお使いください。"
+        },
+        "en": {
+          "q": "Clothes do not dry with the drying function.",
+          "a": "Common causes are a clogged dryer filter or an overloaded drum. Clean the filter and load no more than about 60% of the capacity."
+        },
+        "zh": {
+          "q": "使用干衣功能后衣物仍未干。",
+          "a": "主要原因是烘干过滤网堵塞或衣物放得过多。请清理过滤网,并将衣物量控制在容量的六成左右。"
+        }
+      }
+    },
+    {
+      "id": "faq-003",
+      "productCategory": "living",
+      "productSubcategory": "vacuum",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "VC-30"
+      ],
+      "updated": "2024-06-10",
+      "i18n": {
+        "ja": {
+          "q": "吸引力が弱くなりました。",
+          "a": "ダストボックスとフィルターのごみを除去し、ブラシに髪の毛などが絡まっていないか確認してください。フィルターは水洗い後、十分に乾燥させてから戻してください。"
+        },
+        "en": {
+          "q": "Suction has become weak.",
+          "a": "Empty the dust box, clean the filter, and check the brush for tangled hair. Wash the filter with water and dry it completely before reinstalling."
+        },
+        "zh": {
+          "q": "吸力变弱了。",
+          "a": "请清理集尘盒和过滤网,并检查刷头是否缠绕毛发。过滤网水洗后须完全晾干再装回。"
+        }
+      }
+    },
+    {
+      "id": "faq-004",
+      "productCategory": "hvac",
+      "productSubcategory": "aircon",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CS-22"
+      ],
+      "updated": "2024-05-15",
+      "i18n": {
+        "ja": {
+          "q": "エアコンのフィルター掃除の頻度を教えてください。",
+          "a": "使用シーズン中は2週間に1回程度を目安に、掃除機でほこりを吸い取ってください。汚れが落ちない場合はぬるま湯で洗い、陰干しします。"
+        },
+        "en": {
+          "q": "How often should I clean the air conditioner filter?",
+          "a": "During the season, clean it about every two weeks by vacuuming off the dust. If dirt remains, wash with lukewarm water and dry in the shade."
+        },
+        "zh": {
+          "q": "空调过滤网应多久清洁一次?",
+          "a": "使用季节中建议约每两周用吸尘器吸除灰尘一次。如污垢无法去除,请用温水清洗并阴干。"
+        }
+      }
+    },
+    {
+      "id": "faq-005",
+      "productCategory": "hvac",
+      "productSubcategory": "aircon",
+      "topic": "install",
+      "regions": [
+        "jp",
+        "na",
+        "eu",
+        "cn",
+        "sea"
+      ],
+      "products": [
+        "CS-22"
+      ],
+      "updated": "2024-05-15",
+      "i18n": {
+        "ja": {
+          "q": "海外でも日本仕様のエアコンを使用できますか?",
+          "a": "日本国内仕様品は国内の電源(100V/200V)専用です。海外ではご利用地域向けの仕様品をご使用ください。変圧器による使用は故障や事故の原因となるため推奨しません。"
+        },
+        "en": {
+          "q": "Can the Japan-specification air conditioner be used overseas?",
+          "a": "Japan-specification units are for domestic power (100 V/200 V) only. Use the model made for your region. Use with a transformer is not recommended as it may cause failure or accidents."
+        },
+        "zh": {
+          "q": "日本规格的空调可以在海外使用吗?",
+          "a": "日本国内规格产品仅适用于日本国内电源(100V/200V)。在海外请使用适合当地的规格产品。使用变压器可能导致故障或事故,因此不推荐。"
+        }
+      }
+    },
+    {
+      "id": "faq-006",
+      "productCategory": "hvac",
+      "productSubcategory": "purifier",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "AP-15"
+      ],
+      "updated": "2024-04-20",
+      "i18n": {
+        "ja": {
+          "q": "フィルターの交換時期はどのくらいですか?",
+          "a": "集じんフィルターは約10年(使用状況による)が目安です。表示ランプが点灯したら新しいフィルターに交換してください。"
+        },
+        "en": {
+          "q": "When should the filter be replaced?",
+          "a": "The dust collection filter lasts about 10 years depending on use. Replace it when the indicator lamp lights up."
+        },
+        "zh": {
+          "q": "过滤网应何时更换?",
+          "a": "集尘过滤网的寿命约为10年(视使用情况而定)。指示灯亮起时请更换新的过滤网。"
+        }
+      }
+    },
+    {
+      "id": "faq-007",
+      "productCategory": "kitchen",
+      "productSubcategory": "fridge",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NR-450"
+      ],
+      "updated": "2024-06-01",
+      "i18n": {
+        "ja": {
+          "q": "冷蔵庫の冷えが弱いと感じます。",
+          "a": "設置場所の周囲(左右・上部)に放熱用の隙間があるか、食品を詰め込みすぎていないか確認してください。設定温度は「中」を目安にしてください。"
+        },
+        "en": {
+          "q": "The refrigerator does not seem to cool enough.",
+          "a": "Check that there is clearance around the unit (sides and top) for heat dissipation and that it is not overfilled. Set the temperature to \"Medium\" as a guide."
+        },
+        "zh": {
+          "q": "冰箱制冷效果似乎不足。",
+          "a": "请确认冰箱周围(左右和上方)留有散热空间,且食物没有塞得过满。温度建议设置为“中”。"
+        }
+      }
+    },
+    {
+      "id": "faq-008",
+      "productCategory": "kitchen",
+      "productSubcategory": "rice",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "SR-18"
+      ],
+      "updated": "2024-04-20",
+      "i18n": {
+        "ja": {
+          "q": "炊飯器に E01 と表示されました。",
+          "a": "E01 は温度センサーの異常を示します。内釜の底や本体内部に水滴や異物がないか確認し、電源プラグを抜き差ししてください。再発する場合は修理をご相談ください。"
+        },
+        "en": {
+          "q": "The rice cooker displays E01.",
+          "a": "E01 indicates a temperature sensor fault. Check for water or debris on the bottom of the inner pot and inside the unit, then re-plug the power cord. If it recurs, request a repair."
+        },
+        "zh": {
+          "q": "电饭煲显示 E01。",
+          "a": "E01表示温度传感器异常。请确认内胆底部和机体内部没有水滴或异物,并重新插拔电源插头。如再次出现,请申请维修。"
+        }
+      }
+    },
+    {
+      "id": "faq-009",
+      "productCategory": "av",
+      "productSubcategory": "tv",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "TV-55"
+      ],
+      "updated": "2024-07-15",
+      "i18n": {
+        "ja": {
+          "q": "テレビの映像が映らない(画面が真っ暗)場合は?",
+          "a": "電源ランプの点灯、入力切替(HDMIなど)、接続機器の電源を順に確認してください。改善しない場合は電源プラグを抜いて5分後に差し直してください。"
+        },
+        "en": {
+          "q": "The TV shows no picture (black screen).",
+          "a": "Check the power lamp, the input selection (e.g. HDMI), and the connected device's power in that order. If unchanged, unplug the TV, wait 5 minutes, and plug it back in."
+        },
+        "zh": {
+          "q": "电视没有画面(黑屏)怎么办?",
+          "a": "请依次确认电源指示灯、输入切换(如HDMI)以及连接设备的电源。如无改善,请拔掉电源插头,5分钟后重新插上。"
+        }
+      }
+    },
+    {
+      "id": "faq-010",
+      "productCategory": "bicycle",
+      "productSubcategory": "ebike",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "EB-26"
+      ],
+      "updated": "2024-08-01",
+      "i18n": {
+        "ja": {
+          "q": "電動アシスト自転車のバッテリーの保管方法は?",
+          "a": "直射日光や高温多湿を避け、残量を50%程度にして保管してください。長期間使わない場合でも3か月に1回は充電してください。"
+        },
+        "en": {
+          "q": "How should I store the e-assist bicycle battery?",
+          "a": "Store it away from direct sunlight and heat/humidity, at about 50% charge. Even if unused, charge it once every 3 months."
+        },
+        "zh": {
+          "q": "电动助力自行车电池应如何保管?",
+          "a": "请避免阳光直射和高温潮湿,以约50%的电量保管。即使长期不用,也请每3个月充电一次。"
+        }
+      }
+    },
+    {
+      "id": "faq-011",
+      "productCategory": "common",
+      "topic": "warranty",
+      "regions": [
+        "jp"
+      ],
+      "products": [],
+      "updated": "2024-04-01",
+      "i18n": {
+        "ja": {
+          "q": "保証期間と修理の依頼方法を教えてください。(日本)",
+          "a": "保証期間は購入後1年間です。修理は国内サポートセンターへ、型番・製造番号・症状をご連絡ください。保証期間外は有償修理となります。"
+        },
+        "en": {
+          "q": "What is the warranty period and how do I request a repair? (Japan)",
+          "a": "The warranty period is one year from purchase. Contact the domestic support center with the model, serial number, and symptoms. Repairs after the warranty period are chargeable."
+        },
+        "zh": {
+          "q": "保修期限和维修申请方式是什么?(日本)",
+          "a": "保修期为购买后1年。请向日本国内支持中心提供型号、序列号和故障现象。保修期外的维修为收费服务。"
+        }
+      }
+    },
+    {
+      "id": "faq-012",
+      "productCategory": "common",
+      "topic": "warranty",
+      "regions": [
+        "na",
+        "eu"
+      ],
+      "products": [],
+      "updated": "2024-04-01",
+      "i18n": {
+        "ja": {
+          "q": "保証期間と修理の依頼方法を教えてください。(北米・欧州)",
+          "a": "保証期間は購入後2年間です。修理は各地域の販売代理店またはサポート窓口へ、RMA番号の発行をご依頼ください。"
+        },
+        "en": {
+          "q": "What is the warranty period and how do I request a repair? (North America / Europe)",
+          "a": "The warranty period is two years from purchase. Request an RMA number from your regional distributor or support desk before returning a unit."
+        },
+        "zh": {
+          "q": "保修期限和维修申请方式是什么?(北美、欧洲)",
+          "a": "保修期为购买后2年。退回产品前,请向当地经销商或支持窗口申请RMA编号。"
+        }
+      }
+    },
+    {
+      "id": "faq-013",
+      "productCategory": "common",
+      "topic": "warranty",
+      "regions": [
+        "cn",
+        "sea"
+      ],
+      "products": [],
+      "updated": "2024-04-01",
+      "i18n": {
+        "ja": {
+          "q": "保証期間と修理の依頼方法を教えてください。(中国・東南アジア)",
+          "a": "保証期間は購入後18か月間です。修理は現地サービス拠点へ、型番・製造番号・症状をご連絡ください。"
+        },
+        "en": {
+          "q": "What is the warranty period and how do I request a repair? (China / Southeast Asia)",
+          "a": "The warranty period is 18 months from purchase. Contact your local service center with the model, serial number, and symptoms."
+        },
+        "zh": {
+          "q": "保修期限和维修申请方式是什么?(中国、东南亚)",
+          "a": "保修期为购买后18个月。请向当地服务中心提供型号、序列号和故障现象。"
+        }
+      }
+    },
+    {
+      "id": "faq-014",
+      "productCategory": "living",
+      "productSubcategory": "washer",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NW-80"
+      ],
+      "updated": "2024-08-10",
+      "i18n": {
+        "ja": {
+          "q": "洗濯槽のカビ対策・お手入れ方法は?",
+          "a": "月1回を目安に、市販の洗濯槽クリーナー(塩素系)で槽洗浄コースを実行してください。使用後は蓋を開けて内部を乾燥させると、カビの発生を抑えられます。"
+        },
+        "en": {
+          "q": "How do I prevent mold in the washing drum?",
+          "a": "Run the drum-cleaning course with a commercial chlorine-based cleaner about once a month. Leave the lid open after use to let the interior dry."
+        },
+        "zh": {
+          "q": "如何防止洗衣机内筒发霉?",
+          "a": "建议每月使用市售含氯清洁剂运行一次筒清洁程序。使用后打开盖子让内部干燥,可抑制霉菌产生。"
+        }
+      }
+    },
+    {
+      "id": "faq-015",
+      "productCategory": "living",
+      "productSubcategory": "washer",
+      "topic": "install",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NW-80"
+      ],
+      "updated": "2024-08-10",
+      "i18n": {
+        "ja": {
+          "q": "洗濯機の設置で注意することは?",
+          "a": "水平で振動しない場所に設置し、四隅の脚を調整してがたつきをなくしてください。給水ホース・排水ホースの接続部は水漏れがないか確認してください。"
+        },
+        "en": {
+          "q": "What should I note when installing the washer?",
+          "a": "Place it on a level, vibration-free floor and adjust the four feet to remove wobble. Check the water supply and drain hose connections for leaks."
+        },
+        "zh": {
+          "q": "安装洗衣机时需要注意什么?",
+          "a": "请安装在水平且无振动的地面,调节四个脚使其不晃动。并检查进水管和排水管连接处是否漏水。"
+        }
+      }
+    },
+    {
+      "id": "faq-016",
+      "productCategory": "living",
+      "productSubcategory": "vacuum",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "VC-30"
+      ],
+      "updated": "2024-08-10",
+      "i18n": {
+        "ja": {
+          "q": "コードレス掃除機が途中で止まってしまいます。",
+          "a": "バッテリー残量不足や、ブラシ・吸込口の詰まり、ダストボックスの満杯による保護停止の可能性があります。詰まりを取り除いて充電後に再度お試しください。"
+        },
+        "en": {
+          "q": "The cordless vacuum stops partway through cleaning.",
+          "a": "It may be a protective stop caused by low battery, a blocked brush or nozzle, or a full dust box. Clear the blockage, recharge, and try again."
+        },
+        "zh": {
+          "q": "无线吸尘器中途停止运行。",
+          "a": "可能是电量不足、刷头或吸口堵塞、集尘盒已满而触发保护停机。请清除堵塞并充电后再试。"
+        }
+      }
+    },
+    {
+      "id": "faq-017",
+      "productCategory": "living",
+      "productSubcategory": "lighting",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "LD-60"
+      ],
+      "updated": "2024-07-20",
+      "i18n": {
+        "ja": {
+          "q": "LED照明がちらつく場合は?",
+          "a": "電球の緩みやリモコンの電池切れ、調光器との相性が原因のことがあります。電球を締め直し、調光器対応品かどうか確認してください。"
+        },
+        "en": {
+          "q": "What if the LED light flickers?",
+          "a": "Causes include a loose bulb, weak remote batteries, or incompatibility with a dimmer. Re-seat the bulb and confirm it is dimmer-compatible."
+        },
+        "zh": {
+          "q": "LED灯闪烁怎么办?",
+          "a": "可能是灯泡松动、遥控器电池耗尽或与调光器不兼容所致。请重新拧紧灯泡,并确认是否为调光器适用型号。"
+        }
+      }
+    },
+    {
+      "id": "faq-018",
+      "productCategory": "hvac",
+      "productSubcategory": "aircon",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CS-22"
+      ],
+      "updated": "2024-08-01",
+      "i18n": {
+        "ja": {
+          "q": "エアコンから水が漏れてきます。",
+          "a": "ドレンホースの詰まりや折れ、フィルターの汚れが主な原因です。ホースの先端を確認し、フィルターを掃除してください。改善しない場合は修理をご相談ください。"
+        },
+        "en": {
+          "q": "Water is leaking from the air conditioner.",
+          "a": "The usual causes are a clogged or kinked drain hose or a dirty filter. Check the end of the hose and clean the filter. If it continues, request a repair."
+        },
+        "zh": {
+          "q": "空调漏水。",
+          "a": "主要原因是排水管堵塞或折弯,以及过滤网脏污。请检查排水管末端并清洁过滤网。如仍未改善,请申请维修。"
+        }
+      }
+    },
+    {
+      "id": "faq-019",
+      "productCategory": "hvac",
+      "productSubcategory": "aircon",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CS-22"
+      ],
+      "updated": "2024-08-01",
+      "i18n": {
+        "ja": {
+          "q": "冷房の効きが悪いときの確認事項は?",
+          "a": "設定温度、フィルターの汚れ、室外機周囲の障害物を確認してください。窓やドアの開放、直射日光の影響も冷房効率を下げます。"
+        },
+        "en": {
+          "q": "What should I check when cooling is weak?",
+          "a": "Check the set temperature, filter dirt, and obstructions around the outdoor unit. Open windows/doors and direct sunlight also reduce cooling efficiency."
+        },
+        "zh": {
+          "q": "制冷效果差时应检查什么?",
+          "a": "请检查设定温度、过滤网污垢以及室外机周围是否有障碍物。门窗敞开和阳光直射也会降低制冷效率。"
+        }
+      }
+    },
+    {
+      "id": "faq-020",
+      "productCategory": "hvac",
+      "productSubcategory": "fan",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "DF-30"
+      ],
+      "updated": "2024-06-20",
+      "i18n": {
+        "ja": {
+          "q": "扇風機が回らない、または回転が遅いです。",
+          "a": "電源プラグとスイッチ位置を確認し、羽根や背面に異物がないか確認してください。羽根を手で回して重い場合は使用を中止し、修理をご相談ください。"
+        },
+        "en": {
+          "q": "The fan does not spin or spins slowly.",
+          "a": "Check the plug and switch position and look for debris around the blades and rear. If the blades feel stiff by hand, stop use and request a repair."
+        },
+        "zh": {
+          "q": "电风扇不转或转得很慢。",
+          "a": "请确认电源插头和开关位置,并检查扇叶和背面是否有异物。如用手转动扇叶感觉很沉,请停止使用并申请维修。"
+        }
+      }
+    },
+    {
+      "id": "faq-021",
+      "productCategory": "hvac",
+      "productSubcategory": "humidifier",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "HM-20"
+      ],
+      "updated": "2024-09-01",
+      "i18n": {
+        "ja": {
+          "q": "加湿機のタンクやフィルターのお手入れは?",
+          "a": "タンクの水は毎日入れ替え、週1回はタンクとトレイを洗浄してください。フィルターはクエン酸でつけ置き洗いし、よくすすいで乾燥させます。"
+        },
+        "en": {
+          "q": "How do I clean the humidifier tank and filter?",
+          "a": "Replace the tank water daily and wash the tank and tray weekly. Soak the filter in citric acid solution, rinse well, and dry."
+        },
+        "zh": {
+          "q": "如何清洁加湿器的水箱和过滤网?",
+          "a": "水箱的水请每天更换,每周清洗一次水箱和水盘。过滤网用柠檬酸浸泡清洗后,充分冲洗并晾干。"
+        }
+      }
+    },
+    {
+      "id": "faq-022",
+      "productCategory": "kitchen",
+      "productSubcategory": "oven",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "MW-30"
+      ],
+      "updated": "2024-07-05",
+      "i18n": {
+        "ja": {
+          "q": "電子レンジに入れてはいけない容器・食品は?",
+          "a": "金属製容器、アルミ箔、ひび割れた容器は使用できません。卵や栗などは殻や皮ごと加熱すると破裂するため、必ず穴を開けるか割ってください。"
+        },
+        "en": {
+          "q": "Which containers and foods must not be put in the microwave?",
+          "a": "Do not use metal containers, aluminum foil, or cracked containers. Eggs, chestnuts and similar foods can burst if heated in their shells; pierce or crack them first."
+        },
+        "zh": {
+          "q": "哪些容器和食物不能放入微波炉?",
+          "a": "不可使用金属容器、铝箔和有裂纹的容器。鸡蛋、栗子等带壳食物直接加热会爆裂,务必先刺孔或打开。"
+        }
+      }
+    },
+    {
+      "id": "faq-023",
+      "productCategory": "kitchen",
+      "productSubcategory": "fridge",
+      "topic": "install",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "NR-450"
+      ],
+      "updated": "2024-08-05",
+      "i18n": {
+        "ja": {
+          "q": "冷蔵庫を設置してすぐに電源を入れてもよいですか?",
+          "a": "搬入後は設置場所で1〜2時間ほど置いてから電源を入れてください。庫内が十分に冷えるまで約半日〜1日かかります。"
+        },
+        "en": {
+          "q": "Can I turn on the refrigerator immediately after installation?",
+          "a": "Let it stand at the installation site for 1-2 hours before powering on. It takes about half a day to one day for the interior to cool fully."
+        },
+        "zh": {
+          "q": "冰箱安装后可以立即通电吗?",
+          "a": "搬入后请在安装位置静置1~2小时再通电。箱内完全冷却约需半天到一天。"
+        }
+      }
+    },
+    {
+      "id": "faq-024",
+      "productCategory": "kitchen",
+      "productSubcategory": "ih",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "IH-30"
+      ],
+      "updated": "2024-07-10",
+      "i18n": {
+        "ja": {
+          "q": "IH調理器で「鍋が検知されません」と表示されます。",
+          "a": "IH対応の鍋か、鍋底が平らで十分な大きさ(底径12cm以上)かを確認してください。アルミ・銅・耐熱ガラスの鍋は使用できません。"
+        },
+        "en": {
+          "q": "The IH cooker shows \"No pan detected\".",
+          "a": "Make sure the pan is IH-compatible with a flat base of at least 12 cm in diameter. Aluminum, copper, and heat-resistant glass pans cannot be used."
+        },
+        "zh": {
+          "q": "IH电磁炉显示“未检测到锅具”。",
+          "a": "请确认使用的是IH专用锅具,且锅底平整、直径不小于12cm。铝、铜和耐热玻璃锅具不可使用。"
+        }
+      }
+    },
+    {
+      "id": "faq-025",
+      "productCategory": "kitchen",
+      "productSubcategory": "rice",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "SR-18"
+      ],
+      "updated": "2024-07-10",
+      "i18n": {
+        "ja": {
+          "q": "ご飯がおいしく炊けません。水加減のコツは?",
+          "a": "内釜の目盛りに合わせて正確に計量し、洗米後は水をしっかり切ってください。無洗米や玄米は専用の目盛り・メニューを使用してください。"
+        },
+        "en": {
+          "q": "How can I improve the rice quality? Tips on water level?",
+          "a": "Measure water exactly to the inner pot scale and drain well after rinsing. Use the dedicated scale and menu for pre-washed or brown rice."
+        },
+        "zh": {
+          "q": "米饭煮得不好吃,水量有什么技巧?",
+          "a": "请按内胆刻度准确加水,淘米后充分沥干。免洗米和糙米请使用专用刻度和菜单。"
+        }
+      }
+    },
+    {
+      "id": "faq-026",
+      "productCategory": "kitchen",
+      "productSubcategory": "dishwasher",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "DW-60"
+      ],
+      "updated": "2024-08-15",
+      "i18n": {
+        "ja": {
+          "q": "食器洗い乾燥機の残さフィルターはどのくらいの頻度で掃除しますか?",
+          "a": "毎回の使用後に、残さフィルターのごみを取り除いてください。月1回は洗剤を使って洗浄し、においや洗い残しを防ぎます。"
+        },
+        "en": {
+          "q": "How often should the dishwasher debris filter be cleaned?",
+          "a": "Remove debris from the filter after every use and wash it with detergent once a month to prevent odors and poor washing results."
+        },
+        "zh": {
+          "q": "洗碗机的残渣过滤网多久清洁一次?",
+          "a": "每次使用后请清除过滤网上的残渣,每月用洗涤剂清洗一次,以防异味和洗不干净。"
+        }
+      }
+    },
+    {
+      "id": "faq-027",
+      "productCategory": "av",
+      "productSubcategory": "camera",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "DC-S5"
+      ],
+      "updated": "2024-09-01",
+      "i18n": {
+        "ja": {
+          "q": "撮影した写真や動画をパソコンに取り込むには?",
+          "a": "USBケーブルで接続するか、カードリーダーでSDカードを読み取ってください。接続時はカメラの電源を入れ、USBモードを「PC接続」に設定します。"
+        },
+        "en": {
+          "q": "How do I transfer photos and videos to a PC?",
+          "a": "Connect with a USB cable or read the SD card with a card reader. Turn the camera on and set the USB mode to \"PC connection\"."
+        },
+        "zh": {
+          "q": "如何将拍摄的照片和视频导入电脑?",
+          "a": "请用USB线连接,或用读卡器读取SD卡。连接时开启相机电源,并将USB模式设为“PC连接”。"
+        }
+      }
+    },
+    {
+      "id": "faq-028",
+      "productCategory": "av",
+      "productSubcategory": "audio",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "SC-HC"
+      ],
+      "updated": "2024-09-01",
+      "i18n": {
+        "ja": {
+          "q": "Bluetoothスピーカーが接続できません。",
+          "a": "スピーカーと機器の両方でBluetoothを一度オフ→オンにし、既存のペアリング情報を削除してから再度ペアリングしてください。"
+        },
+        "en": {
+          "q": "The Bluetooth speaker will not connect.",
+          "a": "Turn Bluetooth off and on for both the speaker and your device, delete the existing pairing entry, and pair again."
+        },
+        "zh": {
+          "q": "蓝牙音箱无法连接。",
+          "a": "请在音箱和设备上将蓝牙关闭后再开启,删除已有的配对信息后重新配对。"
+        }
+      }
+    },
+    {
+      "id": "faq-029",
+      "productCategory": "beauty",
+      "productSubcategory": "haircare",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "HD-20"
+      ],
+      "updated": "2024-08-20",
+      "i18n": {
+        "ja": {
+          "q": "ドライヤーが途中で止まります。",
+          "a": "吹出口・吸込口のほこり詰まりで安全装置が作動している可能性があります。電源を切って冷ましてから、吸込口のごみを取り除いてください。"
+        },
+        "en": {
+          "q": "The hair dryer shuts off partway through use.",
+          "a": "A safety device may have activated because the air inlet/outlet is clogged with dust. Turn it off, let it cool, and remove dust from the inlet."
+        },
+        "zh": {
+          "q": "吹风机使用中途停止。",
+          "a": "可能是进、出风口被灰尘堵塞,触发了安全装置。请关闭电源冷却后,清除进风口的灰尘。"
+        }
+      }
+    },
+    {
+      "id": "faq-030",
+      "productCategory": "beauty",
+      "productSubcategory": "oral",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "EW-DP"
+      ],
+      "updated": "2024-08-20",
+      "i18n": {
+        "ja": {
+          "q": "電動歯ブラシのブラシ交換の目安は?",
+          "a": "約3か月に1回、またはブラシの毛先が広がったときに交換してください。交換時は純正ブラシをお使いください。"
+        },
+        "en": {
+          "q": "When should I replace the electric toothbrush head?",
+          "a": "Replace it about every 3 months or when the bristles are splayed. Use a genuine replacement head."
+        },
+        "zh": {
+          "q": "电动牙刷刷头多久更换一次?",
+          "a": "建议约每3个月更换一次,或在刷毛变形外翻时更换。请使用原装刷头。"
+        }
+      }
+    },
+    {
+      "id": "faq-031",
+      "productCategory": "beauty",
+      "productSubcategory": "shaver",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "ES-LV"
+      ],
+      "updated": "2024-08-20",
+      "i18n": {
+        "ja": {
+          "q": "シェーバーの刃の交換時期は?",
+          "a": "内刃は約1年、外刃は約2年が目安です。剃り残しが増えたり肌への刺激を感じたりしたら交換してください。"
+        },
+        "en": {
+          "q": "When should the shaver blades be replaced?",
+          "a": "Replace inner blades about every year and outer foils about every two years, or sooner if shaving gets rough or irritates the skin."
+        },
+        "zh": {
+          "q": "剃须刀刀片应何时更换?",
+          "a": "内刀约1年、外刀网约2年更换一次。若剃不干净或刺激皮肤,请提前更换。"
+        }
+      }
+    },
+    {
+      "id": "faq-032",
+      "productCategory": "beauty",
+      "productSubcategory": "massage",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "MC-70"
+      ],
+      "updated": "2024-08-25",
+      "i18n": {
+        "ja": {
+          "q": "マッサージチェアを使用できない方は?",
+          "a": "ペースメーカー等の医用電気機器をお使いの方、妊娠中の方、発熱・急性の痛みのある方などは使用を控えてください。不安な場合は医師にご相談ください。"
+        },
+        "en": {
+          "q": "Who should not use the massage chair?",
+          "a": "People using medical electronic devices such as pacemakers, pregnant women, and those with fever or acute pain should not use it. Consult a doctor if in doubt."
+        },
+        "zh": {
+          "q": "哪些人不能使用按摩椅?",
+          "a": "佩戴心脏起搏器等医用电子设备者、孕妇、发烧或有急性疼痛者请勿使用。如有疑虑请咨询医生。"
+        }
+      }
+    },
+    {
+      "id": "faq-033",
+      "productCategory": "battery",
+      "productSubcategory": "dry",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [],
+      "updated": "2024-06-15",
+      "i18n": {
+        "ja": {
+          "q": "乾電池の使用上の注意は?",
+          "a": "新旧の電池や種類の異なる電池を混ぜて使わないでください。+/−を正しく入れ、長期間使わない機器からは電池を取り出してください。"
+        },
+        "en": {
+          "q": "What precautions apply when using dry cell batteries?",
+          "a": "Do not mix old and new batteries or different types. Insert with correct polarity and remove batteries from devices left unused for a long time."
+        },
+        "zh": {
+          "q": "使用干电池时有哪些注意事项?",
+          "a": "请勿混用新旧电池或不同类型的电池。请正确放置正负极,长期不用的设备请取出电池。"
+        }
+      }
+    },
+    {
+      "id": "faq-034",
+      "productCategory": "battery",
+      "productSubcategory": "rechargeable",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "BK-3MC"
+      ],
+      "updated": "2024-06-15",
+      "i18n": {
+        "ja": {
+          "q": "充電池の充電回数や寿命の目安は?",
+          "a": "繰り返し使用回数は約2,100回(製品による)が目安です。使用時間が極端に短くなったら寿命ですので、新しい電池に交換してください。"
+        },
+        "en": {
+          "q": "How many times can rechargeable batteries be charged?",
+          "a": "About 2,100 cycles depending on the product. When runtime becomes extremely short, the battery has reached the end of its life and should be replaced."
+        },
+        "zh": {
+          "q": "充电电池可以充多少次?",
+          "a": "视产品而定,约可反复使用2,100次。使用时间明显缩短时即为寿命终止,请更换新电池。"
+        }
+      }
+    },
+    {
+      "id": "faq-035",
+      "productCategory": "battery",
+      "productSubcategory": "mobile",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "QE-PL"
+      ],
+      "updated": "2024-09-05",
+      "i18n": {
+        "ja": {
+          "q": "モバイルバッテリーが充電できません。",
+          "a": "ケーブルの断線や接続不良、入力側の電源容量不足が考えられます。別のケーブル・アダプターで試してください。膨らみや異臭がある場合は直ちに使用を中止してください。"
+        },
+        "en": {
+          "q": "The power bank will not charge.",
+          "a": "Possible causes are a damaged cable, poor connection, or insufficient input power. Try another cable or adapter. If it is swollen or smells abnormal, stop using it immediately."
+        },
+        "zh": {
+          "q": "移动电源无法充电。",
+          "a": "可能是数据线断裂、接触不良或输入电源功率不足。请更换其他数据线或适配器。如出现鼓包或异味,请立即停止使用。"
+        }
+      }
+    },
+    {
+      "id": "faq-036",
+      "productCategory": "phone",
+      "productSubcategory": "telephone",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "VE-GD"
+      ],
+      "updated": "2024-07-25",
+      "i18n": {
+        "ja": {
+          "q": "留守番電話の設定・確認方法は?",
+          "a": "本体の [留守] ボタンで留守番機能をオンにし、応答メッセージを録音してください。着信があると表示ランプが点滅するので、[再生] ボタンで確認します。"
+        },
+        "en": {
+          "q": "How do I set up and check the answering machine?",
+          "a": "Press the [Answer] button to turn on the answering function and record a greeting. The lamp flashes when a message arrives; press [Play] to listen."
+        },
+        "zh": {
+          "q": "如何设置和查看留言功能?",
+          "a": "按本体的[留言]键开启留言功能并录制应答语。有来电留言时指示灯闪烁,按[播放]键即可收听。"
+        }
+      }
+    },
+    {
+      "id": "faq-037",
+      "productCategory": "phone",
+      "productSubcategory": "intercom",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "VL-SE"
+      ],
+      "updated": "2024-07-25",
+      "i18n": {
+        "ja": {
+          "q": "テレビドアホンの映像が映りません。",
+          "a": "電源とケーブルの接続を確認し、玄関子機のレンズが汚れていないか確認してください。停電後は電源を入れ直してください。"
+        },
+        "en": {
+          "q": "The video door phone shows no picture.",
+          "a": "Check the power and cable connections and make sure the door camera lens is clean. After a power outage, restart the system."
+        },
+        "zh": {
+          "q": "可视门铃没有画面。",
+          "a": "请确认电源和线缆连接,并检查门口机镜头是否脏污。停电后请重新启动系统。"
+        }
+      }
+    },
+    {
+      "id": "faq-038",
+      "productCategory": "pc",
+      "productSubcategory": "pcmain",
+      "topic": "error",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CF-SV"
+      ],
+      "updated": "2024-09-10",
+      "i18n": {
+        "ja": {
+          "q": "パソコンが起動しません。",
+          "a": "電源アダプターが接続されているか確認し、周辺機器をすべて外して電源ボタンを長押し(約10秒)してから再度起動してください。改善しない場合は修理をご相談ください。"
+        },
+        "en": {
+          "q": "The PC will not start.",
+          "a": "Check the AC adapter, disconnect all peripherals, hold the power button for about 10 seconds, then start again. If it still fails, request a repair."
+        },
+        "zh": {
+          "q": "电脑无法启动。",
+          "a": "请确认电源适配器已连接,拔掉所有外接设备后长按电源键约10秒,再重新启动。如仍无法解决,请申请维修。"
+        }
+      }
+    },
+    {
+      "id": "faq-039",
+      "productCategory": "pc",
+      "productSubcategory": "pcopt",
+      "topic": "install",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CF-VZ"
+      ],
+      "updated": "2024-09-10",
+      "i18n": {
+        "ja": {
+          "q": "バッテリーパックの取り付け・交換方法は?",
+          "a": "必ず電源を切り、ACアダプターを外してから交換してください。裏面のロックを解除して取り外し、新しいバッテリーを「カチッ」と音がするまで差し込みます。"
+        },
+        "en": {
+          "q": "How do I install or replace the battery pack?",
+          "a": "Power off and unplug the AC adapter first. Release the lock on the back, remove the old pack, and insert the new one until it clicks."
+        },
+        "zh": {
+          "q": "如何安装或更换电池组?",
+          "a": "请先关机并拔下电源适配器。解除背面锁扣取下旧电池,再将新电池插入直到听到“咔嗒”声。"
+        }
+      }
+    },
+    {
+      "id": "faq-040",
+      "productCategory": "car",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "CN-RE"
+      ],
+      "updated": "2024-09-12",
+      "i18n": {
+        "ja": {
+          "q": "カーナビの地図データを更新するには?",
+          "a": "更新用データをパソコンでダウンロードしてSDカードに保存し、車のエンジンをかけた状態でナビに挿入してください。更新中はエンジンを切らないでください。"
+        },
+        "en": {
+          "q": "How do I update the car navigation map data?",
+          "a": "Download the update data on a PC, save it to an SD card, and insert it into the navigation unit with the engine running. Do not turn off the engine during the update."
+        },
+        "zh": {
+          "q": "如何更新车载导航的地图数据?",
+          "a": "请在电脑上下载更新数据并保存到SD卡,发动汽车后插入导航仪。更新过程中请勿熄火。"
+        }
+      }
+    },
+    {
+      "id": "faq-041",
+      "productCategory": "housing",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [],
+      "updated": "2024-09-12",
+      "i18n": {
+        "ja": {
+          "q": "住宅用火災警報器の交換時期は?",
+          "a": "設置から10年を目安に本体ごと交換してください。月1回は点検ボタンまたは引きひもで作動確認を行ってください。"
+        },
+        "en": {
+          "q": "When should the residential fire alarm be replaced?",
+          "a": "Replace the whole unit about 10 years after installation, and test it monthly with the test button or pull cord."
+        },
+        "zh": {
+          "q": "住宅用火灾报警器应何时更换?",
+          "a": "自安装起约10年需整机更换。每月请用测试按钮或拉绳检查一次动作是否正常。"
+        }
+      }
+    },
+    {
+      "id": "faq-042",
+      "productCategory": "hearing",
+      "topic": "maintenance",
+      "regions": [
+        "all"
+      ],
+      "products": [
+        "HA-10"
+      ],
+      "updated": "2024-09-15",
+      "i18n": {
+        "ja": {
+          "q": "補聴器の電池寿命とお手入れ方法を教えてください。",
+          "a": "空気電池は使用時間により約5〜14日が目安です。使用後は乾いた柔らかい布で拭き、湿気を避けて乾燥ケースで保管してください。"
+        },
+        "en": {
+          "q": "What is the battery life of a hearing aid and how do I care for it?",
+          "a": "Zinc-air batteries last about 5-14 days depending on use. Wipe with a dry soft cloth after use and store in a dry case away from humidity."
+        },
+        "zh": {
+          "q": "助听器的电池寿命和保养方法是什么?",
+          "a": "空气电池视使用情况约可用5~14天。使用后请用干燥软布擦拭,并避开潮湿,放入干燥盒保存。"
+        }
+      }
+    },
+    {
+      "id": "faq-043",
+      "productCategory": "other",
+      "topic": "operation",
+      "regions": [
+        "all"
+      ],
+      "products": [],
+      "updated": "2024-09-15",
+      "i18n": {
+        "ja": {
+          "q": "製品の取扱説明書はどこで入手できますか?",
+          "a": "サポートサイトの製品型番検索から、PDF形式の取扱説明書をダウンロードできます。型番は本体の銘板に記載されています。"
+        },
+        "en": {
+          "q": "Where can I get a product manual?",
+          "a": "Search for your model number on the support site to download the manual as a PDF. The model number is on the nameplate of the product."
+        },
+        "zh": {
+          "q": "在哪里可以获取产品说明书?",
+          "a": "可在支持网站通过型号检索下载PDF格式的说明书。型号印在产品铭牌上。"
+        }
+      }
+    },
+    {
+      "id": "faq-044",
+      "productCategory": "common",
+      "topic": "warranty",
+      "regions": [
+        "all"
+      ],
+      "products": [],
+      "updated": "2024-04-01",
+      "i18n": {
+        "ja": {
+          "q": "修理を依頼するときに必要な情報は?",
+          "a": "型番、製造番号(または製造年)、購入日、症状の詳細をお知らせください。保証書や購入時のレシートがあるとスムーズです。"
+        },
+        "en": {
+          "q": "What information do I need when requesting a repair?",
+          "a": "Please provide the model number, serial number (or manufacturing year), purchase date, and details of the symptoms. A warranty card or receipt speeds things up."
+        },
+        "zh": {
+          "q": "申请维修时需要提供哪些信息?",
+          "a": "请提供型号、序列号(或生产年份)、购买日期及故障详情。如有保修卡或购买凭证,办理会更顺畅。"
+        }
+      }
+    },
+    {
+      "id": "faq-045",
+      "productCategory": "common",
+      "topic": "install",
+      "regions": [
+        "na",
+        "eu",
+        "cn",
+        "sea"
+      ],
+      "products": [],
+      "updated": "2024-04-01",
+      "i18n": {
+        "ja": {
+          "q": "海外で日本向け製品を使用できますか?",
+          "a": "日本国内仕様品は国内の電源電圧・規格に合わせて設計されており、海外での使用は保証対象外です。ご利用地域向けの仕様品をお求めください。"
+        },
+        "en": {
+          "q": "Can Japan-market products be used overseas?",
+          "a": "Japan-market products are designed for domestic voltage and standards, and overseas use is not covered by warranty. Please purchase the model made for your region."
+        },
+        "zh": {
+          "q": "日本市场的产品可以在海外使用吗?",
+          "a": "日本国内规格产品是按日本国内电压和标准设计的,在海外使用不在保修范围内。请购买适合您所在地区的规格产品。"
+        }
+      }
+    }
+  ]
+}
